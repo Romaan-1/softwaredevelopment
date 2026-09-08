@@ -77,7 +77,7 @@ class Program
         sorter.SetStrategy(new QuickSort());
         sorter.Sort(listForQuick);
         Console.WriteLine("Результат: " + string.Join(", ", listForQuick) + "\n");
-        Console.WriteLine("Натисніть Enter для завершення...");
+        Console.WriteLine("Натисніть Enter для завершення.");
         Console.ReadLine();
     }
 }

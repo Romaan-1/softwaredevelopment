@@ -31,7 +31,7 @@ public class MagicStaffBehavior : IWeaponBehavior
 public abstract class Character
 {
     // reference to weapon behavior
-    protected IWeaponBehavior weaponBehavior;
+    protected IWeaponBehavior? weaponBehavior;
 
     // Method to set weapon behavior
     public void SetWeapon(IWeaponBehavior w)

@@ -27,6 +27,11 @@ public class MagicStaffBehavior : IWeaponBehavior
     public void UseWeapon() { Console.WriteLine("кастує вогнем!"); }
 }
 
+public class CrossbowBehavior : IWeaponBehavior
+{
+    public void UseWeapon() { Console.WriteLine("1"); }
+}
+
 // Abstract class Character
 public abstract class Character
 {
